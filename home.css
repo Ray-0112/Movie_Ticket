@@ -1,0 +1,69 @@
+
+body{
+    margin: 0;
+    background-image: url("login.jpg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+ul {
+  position: fixed;
+  margin-top: 0px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: gray;
+}
+
+#user_button a {
+  display: block;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  line-height: 0px;
+  font-size: 40px;
+  margin: center;
+  padding: 15px 16px;
+  text-decoration: none;
+
+}
+
+#user_button a:hover{
+  background-color: lightblue;
+  color:white; 
+}
+#loginout a {
+  display: block;
+  background-color: red;
+  color: white;
+  font-size: 5px;
+  text-align: center;
+  line-height: 0px;
+  font-size: 40px;
+  margin: center;
+  padding: 25px 15px;
+  text-decoration: none;
+
+}
+
+#loginout a:hover{
+  background-color: white;
+  color:red; 
+}
